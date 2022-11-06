@@ -29,9 +29,12 @@
 
     --transition: all 400ms ease;
 
-   
-
-
-
+}
+body{
+    /*Adding font family from google fonts*/
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    color: var(--color-white);      /*tect color in body section*/
+    background: var(--color-bg);    /*background color*/
 
 }
