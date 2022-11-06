@@ -93,4 +93,46 @@ img{
     color: var(--color-white);
     border-color: var(--color-white);
 }
+.btn-primary{
+    background: var(--color-danger);
+    color: var(--color-white);
+}
+
+/* ################# Navigation Bar #################*/
+
+/*navigation bar*/
+nav{
+    background: red;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+.nav_container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*for navigation bar buttons*/
+nav button{
+    display: none;
+}
+
+/*navigation menu items*/
+.nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.nav_menu a{
+    font-size: 0.9rem;
+}
+
+.nav_menu a:hover{
+    color: var(--color-bg2);
+}
+
 
