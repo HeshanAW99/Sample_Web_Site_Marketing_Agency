@@ -36,5 +36,45 @@ body{
     line-height: 1.7;
     color: var(--color-white);      /*tect color in body section*/
     background: var(--color-bg);    /*background color*/
+}
 
+.container {
+    width: var(--container-weight-lg);
+    margin: 0 auto;
+}
+
+section {
+    padding: 6rem 0;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+/*declare each heading style*/
+h1, h2, h3, h4, h5{
+    line-height: 1.2;
+}
+h1{
+    font-size: 2.4rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.6rem;
+}
+h4{
+    font-size: 1.4rem;
+}
+
+/*for links*/
+a{
+    color: var(--color-white);
+}
+/*for images*/
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover; 
 }
