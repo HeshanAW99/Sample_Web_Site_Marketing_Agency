@@ -162,7 +162,66 @@ header{
 
 /*############ Services section start ################*/
 
+.services{
+    background: var(--color-bg1);
+    height: 29rem;
+}
 
+.services h1{
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.services__container{
+    display: grid;
+    grid-template-columns: 60% 40%;     /*divide space between left and right containers*/
+    gap: 4rem;
+}
+.services__right p{
+    margin: 1rem 0.3rem;    
+    /*1 rem is between para and btn*/
+    /*0.3 rem is from left to right to the para*/
+}
+
+.services__right{
+    margin: 2rem;
+}
+
+.services__left{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);      /*3 per 1 line */
+    gap: 1rem;
+}
+.services_article{
+    background: var(--color-bg2);
+    padding: 2rem;
+    border-radius: 3rem;
+    transition: var(--transition);
+}
+
+.services :hover{
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+
+.service__icon{
+    background: var(--color-primary);
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+}
+
+.services h5{
+    margin: 1rem 0 1rem;
+}
+
+.services p{
+    font-size: 0.85rem;
+}
+
+/*ad icon backgroud color to the icons in services section*/
+.services__left:nth-child(1) .service__icon{
+    background: var(--color-danger);
+}
 
 
 /*############ Services section end ################*/
