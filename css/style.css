@@ -94,8 +94,8 @@ img{
     border-color: var(--color-white);
 }
 .btn-primary{
-    background: var(--color-danger);
-    color: var(--color-white);
+    background: white;
+    color: black;
 }
 
 /* ################# Navigation Bar #################*/
@@ -171,7 +171,7 @@ header{
 
 .services{
     background: #f75990;
-    height: 35rem;
+    height: 29rem;
 }
 
 .services h1{
@@ -200,15 +200,10 @@ header{
     gap: 1rem;
 }
 .services_article{
-    background: #ff1d58;
+    background: #8076a3;
     padding: 2rem;
     border-radius: 3rem;
     transition: var(--transition);
-}
-
-.services :hover{
-    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0);
-    z-index: 1;
 }
 
 .service__icon{
@@ -229,8 +224,40 @@ header{
 
 /*############ Pricing section start ################*/
 
+/*for tha pricing section*/
+.pricing{
+    margin-top: 8rem;
+}
 
 
+.pricing__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/*all the pricing articles*/
+.price__article{
+    background: #8076a3;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+/*hover for price articles*/
+.price__article:hover{
+    background: transparent;
+    border-color: #f75990;
+}
+
+.package__info{
+    padding: 2rem;
+}
+
+.package__info p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;   
+}
 
 
 
