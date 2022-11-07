@@ -19,9 +19,9 @@
     --color-white: #fff;
     --color_light: rgba(255,255,255, 0.7);
     --color-black: #000;
-    --color-bg: #1f2641;
-    --color-bg1: #2e3267;
-    --color-bg2: #424890;
+    --color-bg: #45548d;
+    --color-bg1: #4129ac;
+    --color-bg2: #161b53;
 
     --container-weight-lg: 76%;
     --container-weight-md: 90%;
@@ -89,7 +89,7 @@ img{
     transition: var(--transition);
 }
 .btn:hover{
-    background: transparent;
+    background: green;
     color: var(--color-white);
     border-color: var(--color-white);
 }
@@ -205,7 +205,7 @@ header{
 }
 
 .service__icon{
-    background: var(--color-primary);
+    background: green;
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
@@ -217,12 +217,6 @@ header{
 .services p{
     font-size: 0.85rem;
 }
-
-/*ad icon backgroud color to the icons in services section*/
-.services__left:nth-child(1) .service__icon{
-    background: var(--color-danger);
-}
-
 
 /*############ Services section end ################*/
 
