@@ -35,7 +35,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
     color: var(--color-white);      /*tect color in body section*/
-    background: #ff1d58;    /*background color*/
+    background: #116466;    /*background color*/
 }
 
 .container {
@@ -89,7 +89,7 @@ img{
     transition: var(--transition);
 }
 .btn:hover{
-    background: #ffa8B6;
+    background: #5680e9;
     color: var(--color-white);
     border-color: var(--color-white);
 }
@@ -112,7 +112,7 @@ nav{
 
 /*change navigation bar when scrolling using js*/
 .window-scroll{
-    background: #ffa8B6;
+    background: #4056a1;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
@@ -170,7 +170,7 @@ header{
 /*############ Services section start ################*/
 
 .services{
-    background: #f75990;
+    background: #05386b;
     height: 29rem;
 }
 
@@ -200,7 +200,7 @@ header{
     gap: 1rem;
 }
 .services_article{
-    background: #8076a3;
+    background: #4056a1;
     padding: 2rem;
     border-radius: 3rem;
     transition: var(--transition);
@@ -232,13 +232,13 @@ header{
 
 .pricing__container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 
 /*all the pricing articles*/
 .price__article{
-    background: #8076a3;
+    background: #4056a1;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -247,7 +247,7 @@ header{
 /*hover for price articles*/
 .price__article:hover{
     background: transparent;
-    border-color: #f75990;
+    border-color: #05386b;
 }
 
 .package__info{
@@ -263,4 +263,29 @@ header{
 
 /*############ Pricing section end ################*/
 
+/*############ FAQ section start ################*/
+.faq{
+    background: #161b53;
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
 
+.faq__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.faq__class{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    background: #4056a1;
+    cursor: pointer;
+}
+
+
+
+
+/*############ FAQ section end ################*/
