@@ -129,10 +129,15 @@ nav button{
 }
 .nav_menu a{
     font-size: 0.9rem;
+    transition: var(--transition);
 }
 
-.nav_menu a:hover{
+.nav_menu a :hover{
     color: var(--color-bg2);
 }
+
+/*############ Navigation Bar end ################*/
+
+
 
 
