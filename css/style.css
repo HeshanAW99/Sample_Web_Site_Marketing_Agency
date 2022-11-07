@@ -35,7 +35,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
     color: var(--color-white);      /*tect color in body section*/
-    background: var(--color-bg);    /*background color*/
+    background: #ff1d58;    /*background color*/
 }
 
 .container {
@@ -89,7 +89,7 @@ img{
     transition: var(--transition);
 }
 .btn:hover{
-    background: green;
+    background: #ffa8B6;
     color: var(--color-white);
     border-color: var(--color-white);
 }
@@ -112,7 +112,7 @@ nav{
 
 /*change navigation bar when scrolling using js*/
 .window-scroll{
-    background: rgb(109, 36, 168);
+    background: #ffa8B6;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
@@ -170,8 +170,8 @@ header{
 /*############ Services section start ################*/
 
 .services{
-    background: var(--color-bg1);
-    height: 29rem;
+    background: #f75990;
+    height: 35rem;
 }
 
 .services h1{
@@ -200,7 +200,7 @@ header{
     gap: 1rem;
 }
 .services_article{
-    background: var(--color-bg2);
+    background: #ff1d58;
     padding: 2rem;
     border-radius: 3rem;
     transition: var(--transition);
@@ -212,7 +212,7 @@ header{
 }
 
 .service__icon{
-    background: green;
+    background: #2d545e;
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
@@ -227,6 +227,13 @@ header{
 
 /*############ Services section end ################*/
 
+/*############ Pricing section start ################*/
 
+
+
+
+
+
+/*############ Pricing section end ################*/
 
 
