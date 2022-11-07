@@ -102,7 +102,7 @@ img{
 
 /*navigation bar*/
 nav{
-    background: red;
+    background: transparent;
     width: 100vw;
     height: 5rem;
     position: fixed;
