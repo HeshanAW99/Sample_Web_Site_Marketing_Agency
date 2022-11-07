@@ -138,6 +138,24 @@ nav button{
 
 /*############ Navigation Bar end ################*/
 
+/*############ Header section start ################*/
 
+header{
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 70vh;
+    margin-bottom: 5rem;
+}
+.header__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;     /*1 fraction 1 fraction means 50% 50%*/
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+.header__left p{
+    margin: 1rem 0 2.4rem;
+}
 
 
