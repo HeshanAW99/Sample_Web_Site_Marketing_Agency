@@ -11,17 +11,8 @@
 
 /* global variables for using in this project */
 :root{
-    --color-primary: #6c63ff;
-    --color-success: #00ef8e;
-    --color-warning: #f7c94b;
-    --color-danger: #f75872;
-    --color-danger-varient: rgba(247, 88, 66, 0.4);
     --color-white: #fff;
-    --color_light: rgba(255,255,255, 0.7);
     --color-black: #000;
-    --color-bg: #45548d;
-    --color-bg1: #4129ac;
-    --color-bg2: #161b53;
 
     --container-weight-lg: 76%;
     --container-weight-md: 90%;
