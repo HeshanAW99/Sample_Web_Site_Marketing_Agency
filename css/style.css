@@ -301,6 +301,8 @@ header{
 }
 
 /*to open answers in faqs*/
+/*this is a class to open faq answers*/
+/*connected to the main.js*/
 .faq__class.open p{
     display: block;
 }
