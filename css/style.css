@@ -163,6 +163,7 @@ header{
 .services{
     background: #116466;
     height: 29rem;
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
 }
 
 .services h1{
@@ -257,7 +258,7 @@ header{
 /*############ FAQ section start ################*/
 .faq{
     background: #116466;
-    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
 }
 
 .faq__container{
