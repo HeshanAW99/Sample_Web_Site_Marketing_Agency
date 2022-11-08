@@ -310,3 +310,56 @@ header{
 
 
 /*############ FAQ section end ################*/
+
+/*############ Footer section start ################*/
+
+footer{
+    padding-top: 5rem;
+    font-size: 0.9rem;
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+}
+
+/*do changes for all h4 tags*/
+.footer__container > div h4{
+    margin-bottom: 1.3rem;
+}
+
+.footer__section1 p{
+    margin: 0 0 2rem;
+}
+
+footer ul li{
+    margin-bottom: 0.7rem;
+}
+
+footer ul li :hover{
+    text-decoration: underline;
+}
+
+.footer__section__social{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.footer__section__copyright{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid #161b53;
+}
+
+
+
+
+/*############ Foote section end ################*/
+
+
+
+
