@@ -1,0 +1,64 @@
+/*about page company details start*/
+
+.about__company{
+    margin-top: 3rem;
+}
+
+/*devide 2 columns in container*/
+.about__company__container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 5rem;
+}
+
+.about__company__left > p{
+    margin: 1.6rem 0 2.5rem;
+}
+
+.company__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.company__card{
+    background: #161b53;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.company__card:hover{
+    background: #4056a1;
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.card__icon{
+    background: #da8a12;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    width: 4rem;
+}
+
+/*changing icon colors*/
+.company__card:nth-child(2) .card__icon{
+    background: #dd17d3;
+ }
+
+ .company__card:nth-child(3) .card__icon{
+    background: #e00c30;
+ }
+
+
+/*about page company details end*/
+
+footer{
+    background: #05386b;
+}
+body{
+    background: #116466;
+}
