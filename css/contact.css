@@ -71,7 +71,7 @@
     margin-right: 4rem;
     margin-bottom: 2rem;
 }
-
+/*form text box*/
 .contact__form input[type="text"]{
     width: 80%;
 }
