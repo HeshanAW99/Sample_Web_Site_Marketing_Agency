@@ -83,6 +83,7 @@ img{
     background: #5680e9;
     color: var(--color-white);
     border-color: var(--color-white);
+    text-decoration: underline;
 }
 .btn-primary{
     background: white;
@@ -162,7 +163,7 @@ header{
 
 .services{
     background: #116466;
-    height: 35rem;
+    height: 38rem;
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
 }
 
@@ -242,6 +243,13 @@ header{
     border-color: #05386b;
 }
 
+.pricing p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;margin-bottom: 5rem;
+}
+
 .package__info{
     padding: 2rem;
 }
@@ -250,6 +258,7 @@ header{
     margin: 1.2rem 0 2rem;
     font-size: 0.9rem;   
 }
+
 
 
 
